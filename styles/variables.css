@@ -1,9 +1,39 @@
+@font-face {
+    font-family: 'Poppins' ;
+    src: url(../public/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'anton';
+    src: url(../public/fonts/Anton-Regular.ttf);
+}
+
 :root {
-    --primary-color : ;
-    --primary-bg : ;
-    --font-family-size : ;
-    --font-size-size : ;
-    --margin-size : ;
-    --padding-size : ;
+    --primary-color : rgb(29, 0, 0);
+    --secondary-color : rgb(196, 0, 0);
+    --rare-color : rgb(252, 195, 195) ;
+
+    --primary-bg :rgb(233, 233, 233) ;
+    --secondary-bg :#cdcdcd ;
+    --rare-bg :rgb(29, 0, 0) ;
+
+    --font-family-primary :'Poppins' ;
+    --font-family-secondary :'anton' ;
+
+    --font-size-xl : 2rem ;
+    --font-size-l : 1.5rem ;
+    --font-size-m : 1rem ;
+    --font-size-s : 0.6rem ;
+
+    --margin-xl : 8rem ;
+    --margin-l : 3rem ;
+    --margin-m : 2rem ;
+    --margin-s : 1rem ;
+    --margin-xs : 0.5rem ;
+
+    --padding-xl : 4rem ;
+    --padding-l : 3rem ;
+    --padding-m : 2rem ;
+    --padding-s : 1rem ;
+    --padding-xs : 0.5rem ;
 }
     
