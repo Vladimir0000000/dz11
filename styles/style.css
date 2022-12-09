@@ -218,6 +218,7 @@ li {
     background-color: var(--primary-bg);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: var(--padding-m);
 }
 
 .product {
@@ -240,4 +241,13 @@ li {
 .product-link:hover {
     color: var(--secondary-color);
     background-color: var(--secondary-bg);
+}
+
+.footer {
+    background-color: var(--rare-bg);
+    color: var(--rare-color);
+    text-align: center;
+    padding: var(--padding-m);
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-l);
 }
